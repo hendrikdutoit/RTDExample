@@ -1,5 +1,6 @@
 import os
 import sys
+from pprint import pprint
 
 # Configuration file for the Sphinx documentation builder.
 # -- Project information
@@ -30,3 +31,5 @@ html_theme = 'bizstyle'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+pprint(sys.path)
